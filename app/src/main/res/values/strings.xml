@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SleePlug</string>
+    <string name="tvOnSleePlug">OFF / ON</string>
+    <string name="tvStats">REGISTRO</string>
+    <string name="tvSettings">AJUSTES</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_stats">Estadísticas</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_title_engineSpeed">Velocidad del motor</string>
+    <string-array name="pref_list_engineSpeed">
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </string-array>
+
+    <string name="pref_title_engineTime">Tiempo movimiento</string>
+    <string name="pref_description_engineTime">Tiempo en movimiento de la cuna</string>
+    <string name="pref_default_engineTime">8</string>
+
+    <string name="pref_title_notifications">Notificaciones</string>
+
+    <!-- Strings related to Notifications -->
+    <string name="notif_is_automatic_working">La Cuna se ha activado automáticamente</string>
+    <string name="notif_off_automatic_working">La Cuna se ha parado automáticamente</string>
+    <string name="notif_is_manual_working">Se ha activado la Cuna</string>
+    <string name="notif_off_manual_working">Se ha parado la Cuna</string>
+    <string name="title_activity_device_list">DeviceListActivity</string>
+
+    <string name="paired_devices">Dispositivos vinculados</string>
+    <string name="found_devices">Dispositivos disponibles</string>
+
+    <string name="dash">-</string>
+    <string name="title_activity_stats_tabs">StatsTabsActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_text_1">Diario</string>
+    <string name="tab_text_2">Mensual</string>
+
+    <string name="diary_fragment">Tab diario</string>
+    <string name="month_fragment">Tab mensual</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:defaultValue="80"
+        android:entries="@array/pref_list_engineSpeed"
+        android:entryValues="@array/pref_list_engineSpeed"
+        android:key="engine_speed"
+        android:title="@string/pref_title_engineSpeed" />
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_engineTime"
+        android:inputType="number"
+        android:key="sensor_working_time"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_description_engineTime"
+        android:title="@string/pref_title_engineTime" />
+</PreferenceScreen>
